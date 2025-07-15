@@ -29,9 +29,8 @@ function About() {
                         </h2>
                         <p className="mb-[25px] font-normal text-[#7B7B7B] text-base md:text-start text-center leading-[151%] ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nascetur imperdiet at a augue ullamcorper.{" "}
+                            elit. Nascetur imperdiet at a augue ullamcorper.
                             <span className="lg:flex hidden">
-                                {" "}
                                 Leo faucibus feugiat rutrum aenean. Nisi, lectus
                                 aliquet aliquam consectetur augue praesent.
                                 Lorem vulputate orci eget mi, sed pulvinar.

@@ -18,7 +18,7 @@ function Hero() {
                             </span>{" "}
                             for business
                         </h1>
-                        <p className="font-normal text-base md:text-start text-center leading-[151%] lg:mt-[11px] mt-[18px]">
+                        <p className="font-normal text-base md:text-start text-center text-[#7B7B7B]  leading-[151%] lg:mt-[11px] mt-[18px]">
                             Amet minim mollit non deserunt ullamco est sit
                             aliqua dolor do amet sint. Velit officia consequat
                             duis enim velit mollit. Exercitation veniam
