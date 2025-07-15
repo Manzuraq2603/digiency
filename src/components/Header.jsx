@@ -5,7 +5,7 @@ import hamburger from "../assets/hamburger.svg";
 
 function Header() {
     return (
-        <header className="lg:py-[26px] md:py-7 py-[10px] bg-[#fff] sticky top-0 z-50 ">
+        <header className="lg:py-[26px] md:py-7 py-[10px] bg-[#fff] sticky top-0 z-50 shadow-[0px_1px_10px_0px_#0000001A] ">
             <div className="max-w-[1250px] mx-auto px-10 flex items-center  ">
                 <a href="logo">
                     <img
