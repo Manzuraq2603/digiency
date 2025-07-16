@@ -66,7 +66,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] text-center">
                         <div className="shadow-[4px_5px_15px_0px_#00000066] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 w-[70px] h-[70px] bg-[#7B7B7B] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={groupIcon}
@@ -80,7 +80,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] text-center">
                         <div className="shadow-[4px_5px_15px_0px_#00C2FF66] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 w-[70px] h-[70px] bg-[#00ACFF] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={settings}
@@ -94,7 +94,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] text-center">
                         <div className="shadow-[4px_5px_15px_0px_#00000066] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 w-[70px] h-[70px] bg-[#373737] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={systems}
