@@ -25,7 +25,7 @@ function Hero() {
                             consequat sunt nostrud amet.
                         </p>
                         <div className="flex items-center md:justify-start justify-center">
-                            <button className="font-medium text-xl leading-[124%] rounded-[5px] lg:mt-[50px]  mt-[25px] pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300]">
+                            <button className="font-medium text-xl leading-[124%] rounded-[5px] lg:mt-[50px]  mt-[25px] pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300] cursor-pointer border-2 border-transparent hover:text-[#FF5300] hover:border-2 hover:border-[#FF5300] hover:bg-white">
                                 Contact Us
                             </button>
                         </div>
@@ -41,22 +41,29 @@ function Hero() {
             </div>
             <div className="  md:flex hidden  flex-col gap-[5px]">
                 <div className=" mt-16  w-10 h-10 bg-amber-600 flex items-center justify-center">
-                    <img
-                        className=""
-                        src={facebook}
-                        alt="facebook"
-                        width={10.5}
-                        height={20}
-                    />
+                    <a
+                        href="https://www.facebook.com/tursunov.doniyorbek.5"
+                        target="_blank"
+                    >
+                        <img
+                            className=""
+                            src={facebook}
+                            alt="facebook"
+                            width={10.5}
+                            height={20}
+                        />
+                    </a>
                 </div>
                 <div className=" w-10 h-10 bg-white flex items-center justify-center ">
-                    <img
-                        className=""
-                        src={instagram}
-                        alt="instagram"
-                        width={20}
-                        height={20}
-                    />
+                    <a href="https://www.instagram.com/manzuraqoraboyeva01">
+                        <img
+                            className=""
+                            src={instagram}
+                            alt="instagram"
+                            width={20}
+                            height={20}
+                        />
+                    </a>
                 </div>
                 <div className=" w-10 h-10 bg-white flex items-center justify-center">
                     <img

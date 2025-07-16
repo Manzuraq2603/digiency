@@ -45,15 +45,15 @@ function About() {
                             </span>
                         </p>
                         <div className="flex items-center md:justify-start justify-center">
-                            <button className="font-medium text-xl leading-[124%] rounded-[5px]  pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300]">
+                            <button className="font-medium text-xl leading-[124%] rounded-[5px]  pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300] cursor-pointer  border-2 border-transparent hover:text-[#FF5300] hover:border-2 hover:border-[#FF5300] hover:bg-white">
                                 Contact Us
                             </button>
                         </div>
                     </div>
                 </div>
                 <ul className="mt-15 md:flex-row flex flex-col gap-[30px] items-center ">
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px] h-50  w-full flex flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
-                        <div className=" shadow-[4px_5px_15px_0px_#FF530066] w-[70px] h-[70px] bg-[#FF5300] flex justify-center items-center rounded-[50%]">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px] h-50  w-full flex flex-col items-center pt-[25px] pb-[21px] lg:gap-9 md:gap-7 gap-6 text-center">
+                        <div className=" shadow-[4px_5px_15px_0px_#FF530066] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14  bg-[#FF5300] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={fileIcon}
                                 alt="file-icon"
@@ -61,13 +61,13 @@ function About() {
                                 height={25}
                             />
                         </div>
-                        <p className="max-w-[206px] w-full font-normal text-[#7B7B7B] text-base leading-[151%] ">
+                        <p className=" md:font-normal font-medium text-[#7B7B7B] text-base leading-[151%] ">
                             World leader in consulting and finance
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
-                        <div className="shadow-[4px_5px_15px_0px_#00000066] w-[70px] h-[70px] bg-[#7B7B7B] flex justify-center items-center rounded-[50%]">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                        <div className="shadow-[4px_5px_15px_0px_#00000066] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 bg-[#7B7B7B] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={groupIcon}
                                 alt="file-icon"
@@ -75,13 +75,13 @@ function About() {
                                 height={17.68}
                             />
                         </div>
-                        <p className="max-w-[177px] w-full font-normal text-[#7B7B7B] text-base leading-[151%] ">
+                        <p className=" md:font-normal font-medium text-[#7B7B7B] text-base leading-[151%] ">
                             A focused team with a specialized skill
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
-                        <div className="shadow-[4px_5px_15px_0px_#00C2FF66] w-[70px] h-[70px] bg-[#00ACFF] flex justify-center items-center rounded-[50%]">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                        <div className="shadow-[4px_5px_15px_0px_#00C2FF66] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 bg-[#00ACFF] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={settings}
                                 alt="file-icon"
@@ -89,13 +89,13 @@ function About() {
                                 height={24.1}
                             />
                         </div>
-                        <p className="max-w-[195px] w-full font-normal text-[#7B7B7B] text-base leading-[151%] ">
+                        <p className=" md:font-normal font-medium text-[#7B7B7B] text-base leading-[151%] ">
                             Trusted and professional advisors for you
                         </p>
                     </li>
 
-                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
-                        <div className="shadow-[4px_5px_15px_0px_#00000066] w-[70px] h-[70px] bg-[#373737] flex justify-center items-center rounded-[50%]">
+                    <li className="shadow-[0px_1px_10px_0px_#0000001A] md:max-w-[270px]  h-50 w-full flex lg:gap-9 md:gap-7 gap-6 flex-col items-center pt-[25px] pb-[21px] gap-9 text-center">
+                        <div className="shadow-[4px_5px_15px_0px_#00000066] lg:w-[70px] lg:h-[70px] md:w-14 md:h-14 bg-[#373737] flex justify-center items-center rounded-[50%]">
                             <img
                                 src={systems}
                                 alt="file-icon"
@@ -103,7 +103,7 @@ function About() {
                                 height={22.5}
                             />
                         </div>
-                        <p className="max-w-[191px] w-full font-normal text-[#7B7B7B] text-base leading-[151%] ">
+                        <p className=" md:font-normal font-medium text-[#7B7B7B] text-base leading-[151%] ">
                             Experience to give you a better results
                         </p>
                     </li>
