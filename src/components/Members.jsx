@@ -191,7 +191,7 @@ function Members() {
                         </span>
                         Projects
                     </h2>
-                    <ul className="max-w-[610px] w-full flex gap-[43px] items-center justify-center mx-auto">
+                    <ul className="max-w-[610px] w-full flex md:gap-[43px] gap-[18px] items-center justify-center mx-auto">
                         <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
                             All
                         </li>
