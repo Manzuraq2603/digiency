@@ -4,31 +4,38 @@ import uiUxDesigner from "../assets/ui-ux-designer.svg";
 import graphicDesigner from "../assets/graphic-designer.svg";
 import webDeveloper from "../assets/web-developer.svg";
 import appDeveloper from "../assets/app-developer.svg";
+import work from "../assets/our-work.svg";
+import work1 from "../assets/our-work1.svg";
+import work2 from "../assets/our-work2.svg";
+import work3 from "../assets/our-work3.svg";
+import work4 from "../assets/our-work4.svg";
+import work5 from "../assets/our-work5.svg";
 
 function Members() {
     return (
         <section className="lg:py-30 py-[50px] bg-white">
             <div className="max-w-[1250px] mx-auto px-10">
-                <p className="font-normal text-[#7B7B7B] text-base leading-[151%] lg:mb-[25px] mb-[18px] text-center ">
-                    Our Expereince
-                </p>
-                <h2 className="md:font-semibold font-medium lg:text-[39px] md:text-[31px] text-[25px]  text-center leading-[124%] md:mb-15 mb-[18px] text-[#373737]">
-                    We Have{" "}
-                    <span className="text-[#FF5300]">Some Awesome </span>
-                    People
-                </h2>
-                <ul className="flex justify-center lg:gap-[30px] md:gap-6 hide-after-3">
-                    <li className=" item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
-                        <div className="">
-                            <img
-                                className=""
-                                src={uiUxDesigner}
-                                alt="team-members1"
-                                width={270}
-                                height={250}
-                            />
+                <div>
+                    <p className="font-normal text-[#7B7B7B] text-base leading-[151%] lg:mb-[25px] mb-[18px] text-center ">
+                        Our Expereince
+                    </p>
+                    <h2 className="md:font-semibold font-medium lg:text-[39px] md:text-[31px] text-[25px]  text-center leading-[124%] md:mb-15 mb-[18px] text-[#373737]">
+                        We Have{" "}
+                        <span className="text-[#FF5300]">Some Awesome </span>
+                        People
+                    </h2>
+                    <ul className="flex justify-center lg:gap-[30px] md:gap-6 hide-after-3">
+                        <li className=" item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
+                            <div className="">
+                                <img
+                                    className=""
+                                    src={uiUxDesigner}
+                                    alt="team-members1"
+                                    width={270}
+                                    height={250}
+                                />
 
-                            {/* <div className="flex flex-col gap-[5px]  ">
+                                {/* <div className="flex flex-col gap-[5px]  ">
                                 <a
                                     className=" w-10 h-10 bg-[#FF5300] hover:bg-white text-white hover:text-[#FF5300] flex items-center justify-center"
                                     href="https://www.facebook.com/tursunov.doniyorbek.5"
@@ -103,73 +110,146 @@ function Members() {
                                     </svg>
                                 </a>
                             </div> */}
-                        </div>
+                            </div>
 
-                        <h5 className="font-medium text-xl leading-[124%] pt-6">
-                            Gustavo Herwitz
-                        </h5>
-                        <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
-                            UI/UX Designer
-                        </p>
-                    </li>
+                            <h5 className="font-medium text-xl leading-[124%] pt-6">
+                                Gustavo Herwitz
+                            </h5>
+                            <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
+                                UI/UX Designer
+                            </p>
+                        </li>
 
-                    <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
-                        <div className="">
-                            <img
-                                className=""
-                                src={graphicDesigner}
-                                alt="team-members1"
-                                width={270}
-                                height={250}
-                            />
-                        </div>
+                        <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
+                            <div className="">
+                                <img
+                                    className=""
+                                    src={graphicDesigner}
+                                    alt="team-members1"
+                                    width={270}
+                                    height={250}
+                                />
+                            </div>
 
-                        <h5 className="font-medium text-xl leading-[124%] pt-6">
-                            Phillip Curtis
-                        </h5>
-                        <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
-                            Graphic Designer
-                        </p>
-                    </li>
+                            <h5 className="font-medium text-xl leading-[124%] pt-6">
+                                Phillip Curtis
+                            </h5>
+                            <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
+                                Graphic Designer
+                            </p>
+                        </li>
 
-                    <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
-                        <div className="">
-                            <img
-                                className=""
-                                src={webDeveloper}
-                                alt="team-members1"
-                                width={270}
-                                height={250}
-                            />
-                        </div>
+                        <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
+                            <div className="">
+                                <img
+                                    className=""
+                                    src={webDeveloper}
+                                    alt="team-members1"
+                                    width={270}
+                                    height={250}
+                                />
+                            </div>
 
-                        <h5 className="font-medium text-xl leading-[124%] pt-6">
-                            Talan Torff
-                        </h5>
-                        <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
-                            Web Developer
-                        </p>
-                    </li>
+                            <h5 className="font-medium text-xl leading-[124%] pt-6">
+                                Talan Torff
+                            </h5>
+                            <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
+                                Web Developer
+                            </p>
+                        </li>
 
-                    <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
-                        <div className="">
-                            <img
-                                className=""
-                                src={appDeveloper}
-                                alt="team-members1"
-                                width={270}
-                                height={250}
-                            />
-                        </div>
+                        <li className="item max-w-[270px] w-full flex flex-col items-center shadow-[0px_1px_10px_0px_#0000001A]">
+                            <div className="">
+                                <img
+                                    className=""
+                                    src={appDeveloper}
+                                    alt="team-members1"
+                                    width={270}
+                                    height={250}
+                                />
+                            </div>
 
-                        <h5 className="font-medium text-xl leading-[124%] pt-6">
-                            Abram Vaccaro
-                        </h5>
-                        <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
-                            App Developer
-                        </p>
-                    </li>
-                </ul>
+                            <h5 className="font-medium text-xl leading-[124%] pt-6">
+                                Abram Vaccaro
+                            </h5>
+                            <p className="font-normal text-base leading-[151%] pt-3 pb-[15px]">
+                                App Developer
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="lg:pt-30 pt-[50px]">
+                    <p className="font-normal text-[#7B7B7B] text-base leading-[151%] lg:mb-[25px] mb-[18px] text-center ">
+                        Our Work
+                    </p>
+
+                    <h2 className="md:font-semibold font-medium lg:text-[39px] md:text-[31px] text-[25px]  text-center leading-[124%]  mb-[25px] text-[#373737]">
+                        We Have Some{" "}
+                        <span className="text-[#FF5300]">
+                            Designed & Development{" "}
+                        </span>
+                        Projects
+                    </h2>
+                    <ul className="max-w-[610px] w-full flex gap-[43px] items-center justify-center mx-auto">
+                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                            All
+                        </li>
+                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                            Graphic Design
+                        </li>
+                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                            UI/UX Design
+                        </li>
+                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                            Web Development
+                        </li>
+                    </ul>
+                    <div className="max-w-[1169px]  pt-15 grid md:grid-cols-3 grid-col-1 ">
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work}
+                            alt="project1"
+                            width={370}
+                            height={370}
+                        />
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work1}
+                            alt="project2"
+                            width={370}
+                            height={470}
+                        />
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work2}
+                            alt="project3"
+                            width={370}
+                            height={370}
+                        />
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work3}
+                            alt="project4"
+                            width={370}
+                            height={470}
+                        />
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work4}
+                            alt="project5"
+                            width={370}
+                            height={370}
+                        />
+                        <img
+                            className="md:max-w-[370px] w-full"
+                            src={work5}
+                            alt="project6"
+                            width={370}
+                            height={470}
+                        />
+                    </div>
+                </div>
             </div>
         </section>
     );

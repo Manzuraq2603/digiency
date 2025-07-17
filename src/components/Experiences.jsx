@@ -32,7 +32,7 @@ function Experiences() {
                         </span>
                     </p>
                     <div className="flex items-center md:justify-start justify-center">
-                        <button className="font-medium text-xl leading-[124%] rounded-[5px]  pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300] cursor-pointer border-2 border-transparent hover:text-[#FF5300] hover:border-2 hover:border-[#FF5300] hover:bg-white">
+                        <button className="font-medium text-xl leading-[124%] rounded-[5px]  pl-[19px] pr-[22px] pt-[13px] pb-4 text-white bg-[#FF5300] cursor-pointer border-2 border-transparent hover:text-[#FF5300] hover:border-2 hover:border-[#FF5300] hover:bg-white transition-all duration-[0.4s] ease-in">
                             Contact Us
                         </button>
                     </div>
