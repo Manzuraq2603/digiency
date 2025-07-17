@@ -192,16 +192,16 @@ function Members() {
                         Projects
                     </h2>
                     <ul className="max-w-[610px] w-full flex md:gap-[43px] gap-[18px] items-center justify-center mx-auto">
-                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                        <li className="font-medium md:text-xl text-sm leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
                             All
                         </li>
-                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                        <li className="font-medium md:text-xl text-sm leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
                             Graphic Design
                         </li>
-                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                        <li className="font-medium md:text-xl text-sm leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
                             UI/UX Design
                         </li>
-                        <li className="font-medium text-xl leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
+                        <li className="font-medium md:text-xl text-sm leading-[124%] text-[#7B7B7B] hover:text-[#FF5300]  ">
                             Web Development
                         </li>
                     </ul>
