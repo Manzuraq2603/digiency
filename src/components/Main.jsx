@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import About from './About'
 import Experiences from './Experiences'
+import Members from './Members'
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
         <Hero/>
         <About/>
         <Experiences/>
+        <Members/>
     </div>
   )
 }

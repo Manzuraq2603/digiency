@@ -33,7 +33,7 @@ function Hero() {
             </div>
             <div className="  md:flex hidden  flex-col gap-[5px]">
                 <a
-                    className=" mt-16  w-10 h-10 bg-white hover:bg-[#FF5300] text-[#FF5300] hover:text-white flex items-center justify-center"
+                    className=" mt-16  w-10 h-10 bg-[#FF5300] hover:bg-white text-white hover:text-[#FF5300] flex items-center justify-center"
                     href="https://www.facebook.com/tursunov.doniyorbek.5"
                     target="_blank"
                 >
