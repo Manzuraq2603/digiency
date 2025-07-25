@@ -1,0 +1,16 @@
+@layer utilities{
+    @media(max-width:1024px){
+        .hide-after-3 > .item:nth-child(n+4){
+            @apply hidden
+        }
+    }
+
+}
+
+@layer utilities{
+    @media(max-width:767px){
+        .hide-after-3 > .item:nth-child(n+2){
+            @apply hidden
+        }
+    }
+}
