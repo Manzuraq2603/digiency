@@ -53,7 +53,7 @@ function About() {
                 </div>
 
                 <ul className="mt-15 md:flex-row flex flex-col lg:gap-[30px] gap-5 items-center w-full ">
-                    <li className="max-w-[270px] w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[31px] pr-[33px]  flex flex-col  items-center text-center">
+                    <li className="md:max-w-[270px] max-w-full w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[31px] pr-[33px]  flex flex-col  items-center text-center">
                         <div className="w-[70px] h-[70px] mb-9 bg-[#FF5300] rounded-[50%] shadow-[4px_5px_15px_0px_#FF530066] flex items-center justify-center ">
                             <img src={fileIcon} alt="" />
                         </div>
@@ -62,7 +62,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="max-w-[270px] w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[47px] pr-[46px] flex flex-col  items-center text-center">
+                    <li className="md:max-w-[270px] max-w-full w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[47px] pr-[46px] flex flex-col  items-center text-center">
                         <div className="w-[70px] h-[70px]  mb-9 bg-[#7B7B7B] rounded-[50%] shadow-[4px_5px_15px_0px_#00000066] flex items-center justify-center ">
                             <img src={groupIcon} alt="" />
                         </div>
@@ -71,7 +71,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="max-w-[270px] w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[38px] pr-[37px] flex flex-col  items-center text-center">
+                    <li className="md:max-w-[270px] max-w-full w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[38px] pr-[37px] flex flex-col  items-center text-center">
                         <div className="w-[70px] h-[70px] mb-9 bg-[#00ACFF] rounded-[50%] shadow-[4px_5px_15px_0px_#00C2FF66] flex items-center justify-center ">
                             <img src={settings} alt="" />
                         </div>
@@ -80,7 +80,7 @@ function About() {
                         </p>
                     </li>
 
-                    <li className="max-w-[270px] w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[40px] pr-[39px] flex flex-col  items-center text-center">
+                    <li className="md:max-w-[270px] max-w-full w-full shadow-[0px_1px_10px_0px_#0000001A] pt-[25px] pb-[21px] pl-[40px] pr-[39px] flex flex-col  items-center text-center">
                         <div className="w-[70px] h-[70px] mb-9 bg-[#373737] rounded-[50%] shadow-[4px_5px_15px_0px_#00000066] flex items-center justify-center ">
                             <img src={systems} alt="" />
                         </div>

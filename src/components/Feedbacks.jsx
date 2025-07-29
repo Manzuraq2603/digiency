@@ -61,7 +61,7 @@ function Feedbacks() {
                         />
                     </li>
                 </ul>
-                <div className="flex justify-center items-center gap-1 pt-15">
+                <div className="flex justify-center items-center  gap-1 pt-15">
                     <img src={ellipse} alt="ellipse" width={15} height={15} />
                     <img src={rectangle} alt="ellipse" width={49} height={15} />
                     <img

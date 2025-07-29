@@ -16,8 +16,8 @@ function Contact() {
                         With Us
                     </h2>
                 </div>
-                <ul className="md:mt-15 mt-[18px] flex md:flex-row flex-col items-center gap-6 w-full">
-                    <li className="max-w-[370px] w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
+                <ul className="md:mt-15 mt-[18px] flex md:flex-row flex-col items-center  gap-6 w-full">
+                    <li className="md:max-w-[370px] max-w-full   w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
                         <div className="flex gap-[18px] mb-[38px] items-center">
                             <div className="lg:w-[75px] lg:h-[75px] md:w-10 md:h-10 w-[75px] h-[75px] bg-[#FF5300] rounded-[50%] flex items-center justify-center">
                                 <img
@@ -45,7 +45,7 @@ function Contact() {
                         </p>
                     </li>
 
-                    <li className="max-w-[370px] w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
+                    <li className="md:max-w-[370px] max-w-full  w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
                         <div className="flex gap-[18px] mb-[38px] items-center">
                             <div className="lg:w-[75px] lg:h-[75px] md:w-10 md:h-10 w-[75px] h-[75px] bg-[#FF5300] rounded-[50%] flex items-center justify-center">
                                 <img
@@ -74,7 +74,7 @@ function Contact() {
                         </p>
                     </li>
 
-                    <li className="max-w-[370px] w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
+                    <li className="md:max-w-[370px] max-w-full w-full pt-[18px] px-[18px] lg:pb-6 md:pb-[18px] pb-6 shadow-[0px_1px_10px_0px_#0000001A]">
                         <div className="flex gap-[18px] mb-[38px] items-center">
                             <div className="lg:w-[75px] lg:h-[75px] md:w-10 md:h-10 w-[75px] h-[75px] bg-[#FF5300] rounded-[50%] flex items-center justify-center">
                                 <img
